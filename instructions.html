@@ -5,8 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instructions</title>
+    <link rel="stylesheet" href="./CSS/instructions.css">
+    <script src="https://kit.fontawesome.com/8783ab45cc.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header>
+        <nav class="nav-links">
+            <ul>
+                <li> <a href="#"> <strong>StudentDashboard</strong></a></li>
+                <li><a href="#">Assessments</a></li>
+                <li><a href="#">Learning History</a></li>
+                <li><a href="#">Grades</a></li>
+                <li><a href="#">Groups</a></li>
+                <li><a href="#">Announcements</a></li>
+            </ul>
+        </nav>
+        <a href="login.html"> <button class="main-button">Sign Out<i class="fas fa-sign-out-alt"></i></button> </a>
+    </header>
+
+    <div class="container">
+        <form class="form" id="login">
+            <h1 class="form__title">Instructions</h1>
+            <ol>
+                <li>You have fifteen minutes to complete the quiz.</li>
+                <li>If you cannot answer a question leave it, attempt the next one and try not to cry.</li>
+                <li>Unfortunately, all questions in this quiz are mandatory.</li>
+                <li>Crying is allowed but please do so quitely.</li>
+                <li>You deserve the best, so good luck.</li>
+                <li>May you know more than what Jon Snow knows.</li>
+            </ol>
+            
+            <!-- Remember to add the login link to the form -->
+           <!-- <a href="main.html"> <button class="main-button">Back to Quiz<i class="fas fa-arrow-circle-left"></i></button> </a>-->
+          <!--  <button class="form__button" formaction="main.html" target="_self" type="submit">Back to Quiz</button>-->
+            <p class="form__text">
+                <a href="#" class="form__link">Forgot your password?</a>
+            </p>
+        </form>
+    </div>
 </body>
 </html>
