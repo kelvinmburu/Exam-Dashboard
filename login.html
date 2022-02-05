@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="./CSS/login.css">
 </head>
 <body>
-    
+    <div class="container">
+        <form class="form" id="login">
+            <h1 class="form__title">Student Login</h1>
+            <p class="form__text">Please enter your credentials to start the exam</p>
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Username or email">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Password">
+                <div class="form__input-error-message"></div>
+            </div>
+            <!-- Remember to add the login link to the form -->
+
+            <button class="form__button" formaction="main.html" target="_self" type="submit">Login</button>
+            <p class="form__text">
+                <a href="#" class="form__link">Forgot your password?</a>
+            </p>
+        </form>
+       
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
