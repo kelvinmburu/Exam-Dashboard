@@ -1,6 +1,6 @@
 # Exam-Dashboard
 
-This repo contains code for a javascript quiz game.
+This repository contains code for a javascript quiz game.
 
 #### By Kelvin Mburu
 
