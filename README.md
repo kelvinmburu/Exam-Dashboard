@@ -32,6 +32,6 @@ Please click to view licensing information (MIT Licence)
 
 Live link (kelvinmburu.github.io/exam-dashboard/)
 
-###### UI/UX Design
+##### UI/UX Design
 
 Please click to view the design ()
