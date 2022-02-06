@@ -8,8 +8,9 @@
 }
 
 body {
-    background-color: #fff7fbee;
+    background-color: #fffbfbee;
     font-family: "Montserrat", sans-serif;
+    /* background: linear-gradient(110deg, #ffffff 45%, #F6B400 45%); */
 }
 
 li,
@@ -21,14 +22,6 @@ button {
     color: #000000;
     text-decoration: none;
 }
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-}
-
 
 header {
     display: flex;
@@ -81,4 +74,15 @@ header {
     margin-left: 10px;
     color: white;
     align-items: center;
+}
+
+.container-text {
+    margin: 60px auto;
+}
+.container-text{
+ text-align: center;
+}
+
+.container-text p a{
+color: #23A6F0;
 }
