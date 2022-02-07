@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="main_header">
         <nav class="nav-links">
             <ul>
                 <li> <a href="#"> <strong>StudentDashboard</strong></a></li>
@@ -79,6 +79,69 @@
             <button class="restart">Continue</button>
         </div>
     </div>
+
+    <!-- Quiz box -->
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz System</div>
+            <div class="timer">
+                <div class="time_text">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+        </header>
+        <section>
+            <div class="que_text">
+                <span>True or false: Javascript is a programming language that adds functionality to a web page.</span>
+            </div>
+            <div class="option_list">
+                <div class="option">
+                    <span>True</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>False</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option">
+                    <span>Neither</span>
+                </div>
+                <div class="option">
+                    <span>I don't know</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz box footer -->
+        <footer>
+            <div class="total_que">
+                <span>
+                    <p>2</p>Of<p>5</p>Questions
+                </span>
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+
+    </div>
+
+    <!-- Result box -->
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <span>You got <p>2</p> out of <p>5</p> </span>
+        </div>
+        <div class="buttons">
+            <button class="restart">Restart Quiz</button>
+            <button class="quit">Exit Quiz</button>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
