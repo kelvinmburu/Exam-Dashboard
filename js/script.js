@@ -35,8 +35,10 @@ let timeValue = 15;
 let widthValue = 0;
 
 
-const next_btn = document.querySelector(".next_btn")
-
+const next_btn = document.querySelector(".next_btn");
+const result_box = document.querySelector(".result_box");
+const restart_quiz = result_box.querySelector(".buttons .restart");
+const quit_quiz = result_box.querySelector(".buttons .quit");
 
 // This section highligts what happens when Next Button is clicked
 
@@ -50,8 +52,10 @@ next_btn.onclick = () => {
         startTimer(timeValue);
         clearInterval(counterLine);
         startTimerLine(widthValue);
+        next_btn.style.display = "none";
     } else {
         console.log("Quiz Completed");
+        showResultBox();
     }
 }
 
@@ -106,8 +110,15 @@ function optionSelected(answer) {
         option_list.children[i].classList.add("disabled");
 
     }
+    next_btn.style.display = "block";
 }
 
+function showResultBox(){
+    info_box.classList.remove("activeInfo");
+    quiz_box.classList.remove("activeQuiz");
+    result_box.classList.remove("activeResult");
+}
+ 
 function startTimer(time) {
     counter = setInterval(timer, 1000);
 
