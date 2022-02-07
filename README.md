@@ -1,4 +1,4 @@
-# Exam-Dashboard
+### Exam-Dashboard
 
 This repository contains code for a javascript quiz game.
 
@@ -26,11 +26,11 @@ MDN documentation & W3 Schools (https://www.w3schools.com/)
 
 ##### Licence
 
-Please click to view licensing information (MIT Licence)
+Please click to view licensing information (LICENSE)
 
 #### Live Link
 
-Live link (kelvinmburu.github.io/exam-dashboard/)
+Live link (https:///www.kelvinmburu.github.io/exam-dashboard/)
 
 ##### UI/UX Design
 

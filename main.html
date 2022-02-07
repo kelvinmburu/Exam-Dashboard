@@ -30,33 +30,53 @@
             questions.</p>
     </div>
 
-    <div class="container-main" id="quiz-board">
-        <div class="content">
-            <div class="main-card">
-                <p>How many days are there in a week?</p>
-                <input type="radio" name="months" value="5">7 <br>
-                <input type="radio" name="months" value="5">3 <br>
-                <input type="radio" name="months" value="1">6 <br>
-                <p>True or false: Javascript is a programming language that adds functionality to a web page.
-                </p>
-                <input type="radio" name="months1" value="4"> True <br>
-                <input type="radio" name="months1" value="5"> False <br>
-                <p>Which of the following isn't a math operator in Javascript?</p>
-                <input type="radio" name="months2" value="4">+<br>
-                <input type="radio" name="months2" value="1">-<br>
-                <input type="radio" name="months2" value="4">===<br>
-                <p>True or false: .concat() is used merge two or more arrays together?</p>
-                <input type="radio" name="js" value="1">True <br>
-                <input type="radio" name="js" value="2">False <br>
-                <p>What forms the basis of web layout and wraps around every HTML element?</p>
-                <input type="radio" name="html" value="3"> CSS Box Model <br>
-                <input type="radio" name="html" value="1"> CSS padding <br>
-                <input type="radio" value="5" name="html">CSS margin <br>
+    <!-- <div class="container-main" id="quiz-board">
+        <div class="main-card">
+            <p>How many days are there in a week?</p>
+            <input type="radio" name="months" value="5">7 <br>
+            <input type="radio" name="months" value="5">3 <br>
+            <input type="radio" name="months" value="1">6 <br>
+            <p>True or false: Javascript is a programming language that adds functionality to a web page.
+            </p>
+            <input type="radio" name="months1" value="4"> True <br>
+            <input type="radio" name="months1" value="5"> False <br>
+            <p>Which of the following isn't a math operator in Javascript?</p>
+            <input type="radio" name="months2" value="4">+<br>
+            <input type="radio" name="months2" value="1">-<br>
+            <input type="radio" name="months2" value="4">===<br>
+            <p>True or false: .concat() is used merge two or more arrays together?</p>
+            <input type="radio" name="js" value="1">True <br>
+            <input type="radio" name="js" value="2">False <br>
+            <p>What forms the basis of web layout and wraps around every HTML element?</p>
+            <input type="radio" name="html" value="3"> CSS Box Model <br>
+            <input type="radio" name="html" value="1"> CSS padding <br>
+            <input type="radio" value="5" name="html">CSS margin <br>
 
-                <br><br><br>
-                <button type="button" onclick="displayAnswer()">SUBMIT</button>
-            </div>
+            <br><br><br>
+            <button type="button" onclick="displayAnswer()">SUBMIT</button>
+        </div>
+    </div> -->
 
+
+    <!-- Start quiz button -->
+    <div class="start_btn"> <button>Start Quiz</button></div>
+
+    <!-- Info section -->
+
+    <div class="info_box">
+        <div class="info_title">
+            <span>Please read these rules to understand the quiz.</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will only have <span>15 Seconds</span> per each question. </div>
+            <div class="info">2. Once you select your answer, you can't reselect.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz when the timer is running.</div>
+            <div class="info">5. You'll get points and grading on the basis of correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
         </div>
     </div>
 </body>
