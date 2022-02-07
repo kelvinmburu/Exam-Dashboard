@@ -23,7 +23,7 @@ button {
     text-decoration: none;
 }
 
-header {
+.main_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,7 +90,7 @@ color: #23A6F0;
 /* This section adds the styling for the container-main section */
 
 
-.start-btn, .info_box {
+.start_btn, .info_box, .quiz_box {
     position: absolute;
     top: 65%;
     left: 50%;
@@ -112,6 +112,7 @@ color: #23A6F0;
 }
 
 .info_box {
+    display: none;
     width: 540px;
     background: #fff;
     border-radius: 5px;
@@ -177,3 +178,8 @@ color: #23A6F0;
 .buttons button.quit {
     color: #007bff;
 }
+
+.buttons button.quit:hover {
+    background: #f02394;
+}
+
