@@ -4,6 +4,7 @@ const exit_btn = document.querySelector(".buttons .quit");
 const continue_btn = document.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
 const timeCount = quiz_box.querySelector(".timer .timer_sec");
+const timeLine = quiz_box.querySelector("header .time_line")
 
 const option_list = document.querySelector(".option_list");
 
@@ -24,12 +25,14 @@ continue_btn.onclick = () => {
     showQuestions(0);
     queCounter(1);
     startTimer(15);
+    startTimerLine(0);
 }
 
 let que_count = 0;
 let que_numb = 1;
 let counter;
 let timeValue = 15;
+let widthValue = 0;
 
 
 const next_btn = document.querySelector(".next_btn")
@@ -45,6 +48,8 @@ next_btn.onclick = () => {
         queCounter(que_numb);
         clearInterval(counter);
         startTimer(timeValue);
+        clearInterval(counterLine);
+        startTimerLine(widthValue);
     } else {
         console.log("Quiz Completed");
     }
@@ -72,6 +77,7 @@ let crossIcon = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 
 function optionSelected(answer) {
     clearInterval(counter);
+    clearInterval(counterLine);
     let userAns = answer.textContent;
     let correctAns = questions[que_count].answer;
     let allOptions = option_list.children.length;
@@ -108,9 +114,27 @@ function startTimer(time) {
     function timer() {
         timeCount.textContent = time;
         time--;
+        if (time < 9) {
+            let addZero = timeCount.textContent;
+            timeCount.textContent = "0" + addZero;
+        }
+        if (time < 0) {
+            clearInterval(counter);
+            timeCount.textContent = "00";
+        }
     }
 }
 
+function startTimerLine(time) {
+    counterLine = setInterval(timer, 29);
+    function timer() {
+        time += 1;
+        timeLine.style.width = time + "px";
+        if (time > 549) {
+            clearInterval(counterLine);
+        }
+    }
+}
 
 function queCounter(index) {
     const bottom_ques_counter = quiz_box.querySelector(".total_que");
