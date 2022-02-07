@@ -19,3 +19,4 @@ continue_btn.onclick = () => {
     info_box.classList.remove("activeInfo");
     quiz_box.classList.add("activeQuiz");
 }
+
