@@ -320,6 +320,12 @@ section .option_list .option:hover {
     background: #db1010;
 }
 
+.option_list .option.correct {
+    color: #809023;
+    border-color: #ffffff;
+    background: #db1010;
+}
+
 .quiz_box footer {
     height: 60px;
     width: 100%;
