@@ -321,9 +321,19 @@ section .option_list .option:hover {
 }
 
 .option_list .option.correct {
-    color: #809023;
-    border-color: #ffffff;
-    background: #db1010;
+    color: #db1010;
+    border-color: #d4edda;
+    background: #c3e6cb;
+}
+
+.option_list .option.incorrect {
+    color: #db1010;
+    border-color: #f8d7da;
+    background: #f5c6cb;
+}
+
+.option_list .option.disabled {
+    pointer-events: none;
 }
 
 .quiz_box footer {
