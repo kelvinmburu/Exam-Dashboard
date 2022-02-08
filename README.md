@@ -22,16 +22,16 @@ This is a simple website for a quiz game dashboard.
 
 ##### Reference
 
-MDN documentation & W3 Schools (https://www.w3schools.com/)
+[W3 Schools](https://www.w3schools.com/)
 
 ##### Licence
 
-Please click to view licensing information (LICENSE)
+[Please click to view licensing information](LICENSE)
 
 #### Live Link
 
-Live link (https:///www.kelvinmburu.github.io/exam-dashboard/)
+[Live link](https://www.kelvinmburu.github.io/exam-dashboard/)
 
-##### UI/UX Design
+##### UI/UX Design Mockups
 
-Please click to view the design ()
+[Please click the link to view the UI/UX design Mockups](https://www.figma.com/file/KOHhj016mCGoTu7RdtRN8h/Exam-Dashboard-Designs?node-id=0%3A1)
