@@ -1,7 +1,6 @@
-// Adding a js arra for the questions, answers, and numbers will
+// Adding a js array for the questions, answers, and numbers
 
-let questions = [
-    {
+let questions = [{
         numb: 1,
         question: "True or false: Javascript is a programming language that adds functionality to a web page.",
         answer: "True",

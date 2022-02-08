@@ -100,13 +100,13 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2),
-                0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+        0px 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.3s ease;
 }
 
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
-.result_box.activeResult{
+.result_box.activeResult {
     z-index: 5;
     opacity: 1;
     pointer-events: auto;
@@ -266,7 +266,7 @@ button {
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background:rgb(0, 60, 255);
+    background: rgb(0, 60, 255);
 }
 
 .quiz_box section {
@@ -408,7 +408,7 @@ footer .next_btn:hover {
     margin-bottom: 10px;
 }
 
-.result_box .complete_text  {
+.result_box .complete_text {
     font-size: 20px;
     font-weight: 500;
 }
@@ -422,7 +422,7 @@ footer .next_btn:hover {
 
 .score_text span p {
     font-weight: 600;
-    padding:0 4px;
+    padding: 0 4px;
 }
 
 .result_box .buttons {
@@ -443,4 +443,3 @@ footer .next_btn:hover {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-

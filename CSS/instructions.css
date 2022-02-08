@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Quicksand&display=swap');
 
 * {
@@ -64,10 +63,10 @@ header {
 }
 
 .form__title {
-text-align: center;
+    text-align: center;
 }
 
-.container{
+.container {
     display: flex;
     margin: 0;
     height: 65vh;
@@ -99,9 +98,6 @@ button {
 }
 
 
-ol li{
+ol li {
     padding: 0.5rem;
 }
-
-
-
